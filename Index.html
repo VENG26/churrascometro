@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrascômetro</title>
+    <link rel="stylesheet" href="./Estilo/style.css">
+</head>
+<body>
+    <div id="menu">  
+        <header>
+            <h1 id=cabecalho>Calcule quanta carne, cerveja e refrigerante vai precisar com base na quantidade de convidados!</h1>
+
+        </header>
+                <main id="base">
+                <h1 id="tittle">Churrascômetro</h1>
+
+                    <h3>Quantidade de adultos</h3>
+                <input id="adultos" type="number" name="adultos" placeholder="Adultos">
+
+                    <h3>Quantidade de crianças</h3>
+                <input id="criancas" type="number" name="criancas" placeholder="Crianças">
+
+                    <h3>Período de duração</h3>
+                <input id="duracao" type="number" name="duracao" placeholder="Duração (em horas)">
+
+                <div id="botao">
+                    <button onclick="calcular()">Calcular</button>
+                </div>
+                
+                
+                <div id="resultado">
+
+                </div>
+                
+            </main>
+             
+            </div>
+    </div>
+    
+    <footer>
+        <p>Imagem criada por macrovector -<a href='https://br.freepik.com/vetores/alimento'>  br.freepik.com</a></p>
+        
+        <p>Critério de consumo de carne foi de 400g para adultos e a metade para crianças. </p>
+    </footer>
+    <script src="./Código/code.js"></script>
+</body>
+</html>
